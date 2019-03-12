@@ -132,7 +132,7 @@ function respond() {
   } 
   else if(request.text && botRegexWk.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/spreadsheets/d/1zRLaUZ12vUOORFdNQbPCzJW5T0zFBrkth_osH9b7d34/edit?usp=drivesdk");
+    postMessage("https://http://daddyleagues.com/som/rules");
     this.res.end();
   } 
   else if(request.text && botRegexMason.test(request.text)) {
