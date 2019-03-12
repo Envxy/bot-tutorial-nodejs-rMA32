@@ -87,12 +87,12 @@ function respond() {
   } 
   else if(request.text && botRegexAd.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://www.hackcollege.com/wp-content/uploads/2013/02/kno_advance.jpg");
+    postMessage("MONDAY WEDNESDAY FRIDAY AT MIDNIGHT EST");
     this.res.end();
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1hSuEG7oplnx4IX6HGsMOjsWb9TCqC4-F1NLjuBz5PCM/edit");
+    postMessage("https://http://daddyleagues.com/som/rules");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
