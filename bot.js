@@ -124,7 +124,7 @@ function respond() {
   } 
   else if(request.text && botRegexSh.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("@Dolphins - 6472074018 - TheTootsieRoll @Falcons 🐧 || 201.912.0022 || supaflysho13 @Rams -636-887-6375- Dr_heggot_swagger *Admin* @Chargers|2086101687|tdbenda(admin) @VIKING$ - 717.756.8857 - A_R_A_B_MONEY69 @Eagles [Admin] 407-790-2459 Surferson13 @Patriots 3134827172 Envxy");
+    postMessage("http://daddyleagues.com/som/forum/forum/5684/topic/new");
     this.res.end();
   } 
   else if(request.text && botRegexWk.test(request.text)) {
